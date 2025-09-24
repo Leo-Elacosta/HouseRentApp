@@ -43,7 +43,7 @@ data class Property (
     var ratingCount: Int = 0,
 ) {
     //função para calcular a média de forma segura
-    fun getAvarageRating(): Float {
+    fun getAverageRating(): Float {
         if (ratingCount == 0) return 0f
         return (ratingSum / ratingCount).toFloat()
     }
